@@ -1,0 +1,116 @@
+@import "font-awesome/css/font-awesome.min.css";
+
+body {
+  padding: 0;
+  margin: 0; /* Also reset margin to avoid any default spacing */
+  overflow-x: hidden;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+.logo {
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.dark-mode p {
+  color: white;
+}
+.loader-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3b82f6;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.wrapper .item {
+  border-bottom: 3px solid gray;
+}
+.max-w-screen-lg {
+  padding-bottom: 35px;
+  padding-inline: 20px;
+}
+.wrapper .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .title h2 {
+  /* line-height: 0; */
+  margin-bottom: 0;
+}
+
+.wrapper .content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  -webkit-transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  -moz-transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  -ms-transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  -o-transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.wrapper .content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  -webkit-transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  -moz-transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  -ms-transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  -o-transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.wrapper span {
+  font-size: 1.5rem;
+}
+
+.custom-padding {
+  text-align: left;
+  padding: 20px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ground Water Refresh Rate Predictor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f0f8ff;
+        }
+        .container {
+            margin-top: 4rem;
+        }
+        .form-control, .btn {
+            border-radius: 10px;
+        }
+        .result-box {
+            background-color: #0077b6;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #0077b6;
+        }
+        h3 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">Ground Water Refresh Rate Predictor</h2>
+
+        <form method="get" action="/api/rainfall/refresh_rate/">
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="state">State</label>
+                    <select id="state" name="state" class="form-control">
+                        {% for state in states %}
+                            <option value="{{ state }}" {% if state == selected_state %}selected{% endif %}>{{ state }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="district">District</label>
+                    <select id="district" name="district" class="form-control">
+                        {% for district in districts %}
+                            <option value="{{ district }}" {% if district == selected_district %}selected{% endif %}>{{ district }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="soil_type">Land Type</label>
+                    <select id="soil_type" name="soil_type" class="form-control">
+                        {% for type, _ in soil_types.items() %}
+                            <option value="{{ type }}" {% if type == selected_soil_type %}selected{% endif %}>{{ type }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Predict</button>
+        </form>
+
+        {% if refresh_rate is not none %}
+            <div class="result-box">
+                <h3>Refresh Rate: {{ refresh_rate }} mm/year</h3>
+            </div>
+        {% endif %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+    document.getElementById('state').addEventListener('change', function() {
+        var state = this.value;
+        fetch('/api/rainfall/refresh_rate/get_districts/' + state)
+            .then(response => response.json())
+            .then(data => {
+            console.log(data)
+                var districtSelect = document.getElementById('district');
+                districtSelect.innerHTML = ''; // Clear previous options
+
+                data.districts.forEach(district => {
+                    var option = document.createElement('option');
+                    option.value = district;
+                    option.text = district;
+                    districtSelect.add(option);
+                });
+
+                // Optionally select the first district if none is selected
+                if (data.districts.length > 0) {
+                    districtSelect.value = data.districts[0];
+                    // Submit the form to refresh the data
+                    document.querySelector('form').submit();
+                }
+            });
+    });
+    </script>
+
+</body>
+</html>

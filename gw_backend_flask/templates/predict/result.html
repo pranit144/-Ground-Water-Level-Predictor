@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ground Water Level Prediction Result</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 10px auto;
+            max-width: 1200px; /* Adjust as needed */
+        }
+        .main-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: skyblue;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .box {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: lightblue;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 20px;
+        }
+        .box-header {
+            color: green;
+            font-weight: bold;
+            text-align: center;
+            font-size: 24px;
+        }
+        .gauge-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .gauge-container .gauge {
+            width: 45%;
+        }
+        .gauge-heading {
+            text-align: center;
+            color: green;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-top: 100px;
+        }
+        .line-plot {
+            margin-bottom: 30px;
+        }
+        .mini-boxes {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .mini-boxes .box {
+            width: 30%;
+            padding: 10px;
+        }
+        .nutrient-table {
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+        .nutrient-table th, .nutrient-table td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+        .nutrient-table th {
+            background-color: skyblue;
+            color: black;
+            font-weight: bold;
+        }
+        .nutrient-table th.title {
+            text-align: center;
+            background-color: transparent;
+            color: skyblue;
+            font-size: 24px;
+        }
+        .ai-suggestions {
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            margin-top: 30px;
+            padding: 30px 20px;
+        }
+        .ai-suggestions h2 {
+            font-weight: bold;
+            color: skyblue;
+            font-size: 24px;
+        }
+        .ai-suggestions p {
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .ai-suggestions .section {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .ai-suggestions .section h3 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+          #map {
+            height: 400px; /* Adjust as needed */
+            width: 100%;
+        }
+        .locationText{
+        text-align: center;
+            color: green;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="main-title">Ground Water Level Prediction Result</div>
+
+        <!-- Latitude and Longitude -->
+        <div class="box">
+            <div class="box-header">Prediction Address</div>
+            <div>Latitude: {{ latitude }}</div>
+            <div>Longitude: {{ longitude }}</div>
+            <div>Location: {{ location_address }}</div>
+        </div>
+        <div class="mt-4">
+            <h2 class="locationText">Location you Provided</h2>
+        </div>
+         <!-- Map -->
+        <div id="map"></div>
+
+        <!-- Combined Gauges -->
+        <div class="gauge-heading">Prediction of Ground Water Level (mbgl)</div>
+        <div class="gauge-container">
+            <div class="gauge">
+                <div class="box-header"></div>
+                {{ fig_gwl|safe }}
+            </div>
+            <div class="gauge">
+                <div class="box-header"></div>
+                {{ fig_depth|safe }}
+            </div>
+        </div>
+
+        <!-- Aquifer Type, Well Type, Well Count -->
+        <div class="mini-boxes">
+            <div class="box">
+                <div class="box-header">Aquifer Type</div>
+                {{ aquifer_type }}
+            </div>
+            <div class="box">
+                <div class="box-header">Well Type</div>
+                {{ well_type }}
+            </div>
+            <div class="box">
+                <div class="box-header">Well Count</div>
+                {{ well_count }}
+            </div>
+        </div>
+
+        <!-- Line Plot -->
+        <div class="line-plot">
+            {{ fig1|safe }}
+        </div>
+
+        <!-- Nutrient Table -->
+        <div class="nutrient-table">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="title" colspan="2">Ground Water Quality Report</th>
+                    </tr>
+                    <tr>
+                        <th>Nutrient</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for nutrient, value in average_nutrients.items() %}
+                    <tr>
+                        <td>{{ nutrient }}</td>
+                        <td>{{ value }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- AI Suggestions -->
+        <div class="ai-suggestions">
+            <div class="suggestions-content">
+                {{ ai_suggestions|safe }}
+            </div>
+        </div>
+    </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1nHcXkqntzutrqTpJwHiuotUUEgwhoGs&callback=initMap" async defer></script>
+    <script>
+        function initMap() {
+            const latitude = {{ latitude }};
+            const longitude = {{ longitude }};
+            const location = { lat: latitude, lng: longitude };
+
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 10,
+                center: location,
+            });
+
+            new google.maps.Marker({
+                position: location,
+                map: map,
+                title: "Prediction Location"
+            });
+        }
+    </script>
+</body>
+</html>

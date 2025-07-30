@@ -1,0 +1,16 @@
+/* globals.css */
+body.light-mode {
+  @apply bg-gray-100 text-gray-900; /* Light mode background and text color */
+}
+
+body.dark-mode {
+  @apply bg-gray-900 text-gray-100; /* Dark mode background and text color */
+}
+
+.text-light {
+  @apply text-gray-900; /* Text color for light mode */
+}
+
+.text-dark {
+  @apply text-gray-100; /* Text color for dark mode */
+}

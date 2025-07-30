@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style1.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevation Analysis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <style>
+        h1, h2 {
+            text-align: center;
+            color: skyblue;
+            font-weight: bold;
+        }
+        .metric-label {
+            font-size: 1.5em;
+            color: #00A0E4;
+            text-align: center;
+        }
+        .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        /* General Styling */
+body {
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Elevation Analysis Header */
+h1.elevation-header {
+    text-align: center;
+    color: skyblue;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Section Headers */
+h2.section-header {
+    text-align: center;
+    color: skyblue;
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Metrics Styling */
+.metric-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.metric {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    width: 18%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.metric-label {
+    font-size: 1.5em;
+    color: #00A0E4;
+}
+
+.metric-value {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Heatmaps and Maps */
+.map-container {
+    width: 100%;
+    height: 800px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Charts Styling */
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.chart {
+    width: 48%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Tooltip for Maps */
+.leaflet-tooltip {
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Elevation Analysis</h1>
+    <form method="POST">
+        <div class="form-group">
+            <label for="district">Select District</label>
+            <select name="district" class="form-control">
+                {% for district in districts %}
+                    <option value="{{ district }}" {% if selected_district == district %}selected{% endif %}>{{ district }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+    </form>
+
+    <!-- Metrics -->
+    <div class="row mt-4">
+        <div class="col-md-2 metric-label">Aquifer Type</div>
+        <div class="col-md-2 metric-label">Well Depth (m)</div>
+        <div class="col-md-2 metric-label">Well Type</div>
+        <div class="col-md-2 metric-label">Ground Water Level (mbgl)</div>
+        <div class="col-md-2 metric-label">Elevation (m)</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2 metric-value">{{ metrics['AQUIFER'] }}</div>
+        <div class="col-md-2 metric-value">{{ metrics['WELL DEPTH'] }}</div>
+        <div class="col-md-2 metric-value">{{ metrics['WELL TYPE'] }}</div>
+        <div class="col-md-2 metric-value">{{ metrics['Ground water level (mbgl)'] }}</div>
+        <div class="col-md-2 metric-value">{{ metrics['elevation'] }}</div>
+    </div>
+
+    <!-- Elevation and Groundwater Level Map -->
+    <h2>Elevation & Ground Water Level Heatmap</h2>
+    <div class="map-container">
+        {{ elevation_map|safe }}
+    </div>
+
+    <!-- Visual Analysis: Well Type vs Elevation and Well Depth vs Elevation -->
+    <h2>Visual Analysis</h2>
+    <div class="row">
+        <div class="col-md-6">
+            {{ fig_well_type_vs_elevation|safe }}
+        </div>
+        <div class="col-md-6">
+            {{ fig_well_depth_vs_elevation|safe }}
+        </div>
+    </div>
+
+    <!-- Aquifer Type vs Elevation Map -->
+    <h2>Aquifer Type vs Elevation Heatmap</h2>
+    <div class="map-container">
+        {{ aquifer_map|safe }}
+    </div>
+
+    <!-- Well Depth vs Elevation Map -->
+    <h2>Well Depth vs Elevation Heatmap</h2>
+    <div class="map-container">
+        {{ well_depth_map|safe }}
+    </div>
+
+</div>
+
+</body>
+</html>

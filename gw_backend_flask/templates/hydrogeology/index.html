@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydrogeological Analysis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f0f8ff;
+        }
+
+        .container {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .heading {
+            text-align: center;
+            color: skyblue;
+            font-weight: bold;
+        }
+
+        .subheading {
+            text-align: center;
+            color: darkgreen;
+            font-weight: bold;
+        }
+
+        .section-heading {
+            text-align: center;
+            color: pink;
+            font-weight: bold;
+        }
+
+        /* Spinner and overlay */
+        .spinner-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1050;
+            display: none; /* Hidden by default */
+        }
+
+        .spinner-overlay .spinner-border {
+            width: 3rem;
+            height: 3rem;
+            border-width: 0.4em;
+            border-color: #007bff transparent transparent transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Hydrogeological Data Analysis</h1>
+
+        <form method="POST" action="/api/hydrogeology/" id="form-1">
+            <div class="form-group">
+                <label for="district">Select District</label>
+                <select class="form-control" id="district" name="district">
+                    <option value="">--Select District--</option>
+                    {% for district in districts %}
+                        <option value="{{ district }}">{{ district }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        {% if figures %}
+        <div class="container">
+            <h2 class="subheading">Hydrogeological Parameters</h2>
+            {% for row in figures %}
+            <div class="row">
+                {% for fig in row %}
+                <div class="col-md-4">
+                    {{ fig.to_html(full_html=False)|safe }}
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if correlation_heatmap %}
+        <div class="container">
+            <h2 class="section-heading">Correlation Heatmap</h2>
+            {{ correlation_heatmap|safe }}
+        </div>
+        {% endif %}
+
+        {% if aquifer_pie_chart %}
+        <div class="container">
+            <h2 class="section-heading">Aquifer Distribution Pie Chart</h2>
+            {{ aquifer_pie_chart|safe }}
+        </div>
+        {% endif %}
+
+        <form method="POST" action="/api/hydrogeology/" id="form-2">
+            <div class="form-group">
+                <label for="parameter">Select Parameter for Histogram</label>
+                <select class="form-control" id="parameter" name="parameter">
+                    <option value="pH">pH</option>
+                    <option value="electrical conductivity">Electrical Conductivity</option>
+                    <option value="TDS (mg/l)">TDS (mg/l)</option>
+                    <option value="Total Hardness (mg/l)">Total Hardness (mg/l)</option>
+                    <option value="Calcium (mg/l)">Calcium (mg/l)</option>
+                    <option value="Magnesium (mg/l)">Magnesium (mg/l)</option>
+                    <option value="Sodium (mg/l)">Sodium (mg/l)</option>
+                    <option value="Potassium (mg/l)">Potassium (mg/l)</option>
+                    <option value="Carbonate (mg/l)">Carbonate (mg/l)</option>
+                    <option value="Bicarbonate (mg/l)">Bicarbonate (mg/l)</option>
+                    <option value="Sulphate (mg/l)">Sulphate (mg/l)</option>
+                    <option value="Chloride (mg/l)">Chloride (mg/l)</option>
+                    <option value="Fluoride (mg/l)">Fluoride (mg/l)</option>
+                    <option value="Nitrate (mg/l)">Nitrate (mg/l)</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Show Histogram & Heatmap</button>
+        </form>
+
+        {% if show_histogram %}
+        <div class="container">
+            <h2 class="section-heading">Histogram Plot</h2>
+            {{ histogram|safe }}
+        </div>
+        {% endif %}
+
+        {% if show_heatmap %}
+        <div class="container">
+            <h2 class="section-heading">Geospatial Heatmap Analysis</h2>
+            {{ heatmap|safe }}
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Spinner Overlay -->
+    <div class="spinner-overlay" id="spinner-overlay">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Show spinner when form is submitted
+        document.getElementById('form-1').addEventListener('submit', function () {
+            document.getElementById('spinner-overlay').style.display = 'flex';
+        });
+        document.getElementById('form-2').addEventListener('submit', function () {
+            document.getElementById('spinner-overlay').style.display = 'flex';
+        });
+    </script>
+</body>
+
+</html>

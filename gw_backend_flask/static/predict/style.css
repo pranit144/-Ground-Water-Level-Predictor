@@ -1,0 +1,153 @@
+/* Reset some default browser styles */
+body, h1, select, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px; /* Added padding to prevent overflow issues */
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    min-height: 80vh; /* Adjusting height to take up most of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px; /* Spacing from the top */
+    margin-bottom: 50px; /* Spacing from the bottom */
+}
+
+/* Heading styling */
+.heading-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading-container h1 {
+    font-size: 2.5em;
+    color: #1E90FF; /* Dark sky blue */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Content container styling */
+.content-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Form container styling */
+.form-container {
+    width: 50%; /* Reduced form container width */
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-height: 650px; /* Limit max height */
+    overflow-y: none; /* Enable scrolling if content exceeds height */
+    transition: all 0.3s ease;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-container select, .form-container input, .form-container button {
+    width: 100%; /* Full-width inputs, adjusted to fill the container */
+    height: 35px; /* Consistent height for all fields */
+    margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-container button {
+    background-color: #1E90FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+}
+
+.form-container button:hover {
+    background-color: #1C86EE;
+}
+
+/* Image container styling */
+.image-container {
+    width: 45%; /* Increased image container width */
+    height: 600px; /* Match height of form container */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-container, .image-container {
+        width: 100%;
+        max-width: 500px; /* Limit width for smaller screens */
+    }
+
+    .image-container {
+        height: auto; /* Auto adjust height for small screens */
+        margin-top: 20px; /* Add spacing for better layout on small screens */
+    }
+}
+
+/* Ensure form resizes properly when 'Location' is selected */
+#location-form {
+    max-height: 600px; /* Limit height for location inputs */
+    overflow-y: auto;
+}
+
+  /* Spinner and overlay */
+        .spinner-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1050;
+            display: none; /* Hidden by default */
+        }
+
+        .spinner-overlay .spinner-border {
+            width: 5rem;
+            height: 5rem;
+            border-width: 0.4em;
+            border-color: #007bff transparent transparent transparent;
+        }

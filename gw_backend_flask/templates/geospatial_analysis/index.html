@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groundwater Analysis</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        nav {
+            background-color: black;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: red;
+        }
+        .container {
+            margin: 10px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        select, button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 1rem;
+        }
+        select {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: red;
+        }
+        #map {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0; /* Remove any padding */
+            margin: 0; /* Remove any margin */
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#" onclick="setPlot('Groundwater Heatmap')">Groundwater Heatmap</a>
+        <a href="#" onclick="setPlot('Wells Cluster Plot')">Wells Cluster Plot</a>
+        <a href="#" onclick="setPlot('Well Type Scatter Plot')">Well Type Scatter Plot</a>
+        <a href="#" onclick="setPlot('Aquifer Circle Plot')">Aquifer Circle Plot</a>
+        <a href="#" onclick="setPlot('Well Depth Plot')">Well Depth Plot</a>
+    </nav>
+
+    <div class="container">
+        <form id="heatmapForm">
+            <label for="heatmap_date">Select Date for Heatmap:</label>
+            <select id="heatmap_date" name="heatmap_date">
+                <option value="Jan-23" selected>Jan-23</option>
+                <option value="May-22">May-22</option>
+                <option value="Aug-22">Aug-22</option>
+                <option value="Nov-22">Nov-22</option>
+            </select>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+    <div id="loading" style="display:none;">Loading...</div>
+    <div id="map">
+        <iframe id="mapFrame" src=""></iframe>
+    </div>
+
+    <script>
+        // Set default plot to Groundwater Heatmap on page load
+        window.onload = function() {
+            setPlot('Groundwater Heatmap');
+        };
+
+        function setPlot(plotType) {
+            document.getElementById("heatmapForm").style.display = (plotType === 'Groundwater Heatmap') ? 'block' : 'none';
+            submitForm(plotType);
+        }
+
+       function submitForm(plotType = '') {
+    // Show loading spinner
+    document.getElementById("loading").style.display = 'block';
+    document.getElementById("mapFrame").style.display = 'none';
+
+    let form = new FormData();
+    form.append("plot_type", plotType || document.querySelector('input[name="plot_type"]:checked').value);
+    if (plotType === 'Groundwater Heatmap') {
+        form.append("heatmap_date", document.getElementById('heatmap_date').value);
+    }
+    fetch('http://127.0.0.1:5000/api/geospatial_analysis/plot', {
+        method: 'POST',
+        body: form
+    }).then(response => response.text())
+      .then(html => {
+          // Hide loading spinner and show the map
+          document.getElementById("loading").style.display = 'none';
+          document.getElementById("mapFrame").style.display = 'block';
+          document.getElementById("mapFrame").srcdoc = html;
+      });
+}
+
+    </script>
+</body>
+</html>

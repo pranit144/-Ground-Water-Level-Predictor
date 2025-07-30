@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainfall Trend Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .container {
+            margin-top: 20px;
+        }
+        .map-container {
+            width: 100%;
+            height: 600px; /* Increased height */
+            overflow: hidden;
+            margin-bottom: 30px; /* Bottom spacing */
+        }
+        .map {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+        .map-spacing {
+            margin-bottom: 20px; /* Spacing between two maps */
+        }
+
+        /* Spinner and overlay */
+        .spinner-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1050;
+            display: none; /* Hidden by default */
+        }
+
+        .spinner-overlay .spinner-border {
+            width: 3rem;
+            height: 3rem;
+            border-width: 0.4em;
+            border-color: #007bff transparent transparent transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center text-primary">Rainfall Trend Analysis</h1>
+
+        <form method="get" action="/api/rainfall/analysis" id="rainfall-form">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="state">State</label>
+                    <select id="state" name="state" class="form-control" onchange="this.form.submit()">
+                        {% for state in states %}
+                            <option value="{{ state }}" {% if state == selected_state %}selected{% endif %}>{{ state }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="district">District</label>
+                    <select id="district" name="district" class="form-control" onchange="this.form.submit()">
+                        {% for district in districts %}
+                            <option value="{{ district }}" {% if district == selected_district %}selected{% endif %}>{{ district }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div>{{ plot_rainfall | safe }}</div>
+            </div>
+            <div class="col-md-4">
+                <div>{{ plot_refresh_rate | safe }}</div>
+            </div>
+            <div class="col-md-4">
+                <div>{{ plot_deviation | safe }}</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center text-primary">Rainfall Analysis</h2>
+                <div>{{ plot_bar | safe }}</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center text-primary">Rainfall Impact on Groundwater Levels</h2>
+                <div class="map-container map-spacing">
+                    <div class="map">
+                        {{ map_rainfall_gw | safe }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center text-primary">Refresh Rate Shading Map</h2>
+                <div class="map-container">
+                    <div class="map">
+                        {{ map_refresh_rate | safe }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Spinner Overlay -->
+    <div class="spinner-overlay" id="spinner-overlay">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Show spinner when form is submitted
+        document.getElementById('rainfall-form').addEventListener('submit', function () {
+            document.getElementById('spinner-overlay').style.display = 'flex';
+        });
+    </script>
+</body>
+</html>

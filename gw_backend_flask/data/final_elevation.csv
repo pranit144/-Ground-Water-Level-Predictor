@@ -1,0 +1,625 @@
+District,Latitude,Longitude,elevation,WELL DEPTH,AQUIFER,WELL TYPE,Ground water level (mbgl)
+Adilabad,19.663259,78.555315,256,21.1204,Basalt,Bore Well,34.32
+Agra,27.17568,78.008109,170,12.5245,Basalt,Tube Well,5.47
+Ahmadabad,23.026157,72.589687,51,25.813375,Basalt,Tube Well,4.7575
+Ahmadnagar,19.093412,74.746855,657,39.10225,Basalt,Tube Well,4.045
+Aizawl,23.748659,92.728016,937,52.391125,Basalt,Tube Well,3.3325
+Ajmer,26.460578,74.641756,488,65.68,Unconfined to Semi Confined,Dug Well,2.62
+Akola,20.710576,77.00373,286,41.0795,Alluvium,Dug Well,12.73
+Alappuzha,9.501632,76.329606,9,95.4561,Semi Confined,Dug Well,3.81
+Aligarh,27.875204,78.068216,189,12.5245,Basalt,Dug Well,5.17
+Allahabad,25.45399,81.851869,96,12.5245,Basalt,Dug Well,8.87
+Almora,29.603844,79.665557,1488,42.06224999999999,Basalt,Dug Well,30.79
+Alwar,27.566581,76.610602,277,71.6,Semi-Confined To Confined,Tube Well,52.71
+Ambala,30.376076,76.78821,275,86.1,Semi-Confined To Confined,Dug Well,1.35
+Ambedkar Nagar,26.413411,82.54027,90,12.5245,Basalt,Dug Well,4.32
+Amravati,20.937346,77.760249,346,33.223,Alluvium,Dug Well,3.55
+Amreli,21.598002,71.216081,120,113.656,Lathi Formation,Dug Well,5.67
+Amritsar,31.623088,74.87248,233,66.74,Unconfined to Semi Confined,Dug Well,15.05
+Anand,22.566883,72.953775,39,73.7041,Unconfined,Dug Well,26.13
+Anantapur,14.679395,77.598252,349,140.9306,Semi confined,Dug Well,0.57
+Anantanag,33.738528,75.16328,1630,123.4596,Semi confined,Dug Well,1.6824999999999997
+Andamans,11.660569,92.741136,30,105.98859999999999,Semi confined,Dug Well,2.7949999999999995
+Anjaw,27.894204,96.790213,1415,88.5176,Semi confined,Dug Well,3.9074999999999993
+Anugul,20.836481,85.099192,130,71.0466,Qtz./Schist,Dug Well,5.02
+Anuppur,23.097789,81.701139,497,37.31517059,Limestone,Dug Well,3.17
+Araria,26.137794,87.464469,53,36.152,Basalt,Dug Well,4.14
+Ashok Nagar,24.568718,77.728572,491,25.95733333,SANDSTONE,Bore Well,7.44
+Auraiya,26.460045,79.519467,139,12.5245,Basalt,Tube Well,18.97
+Aurangabad,24.749745,84.379225,114,40.58,Basic Rocks (Basalt),Dug Well,2.12
+Aurangabad,19.885543,75.333441,578,40.58,Basic Rocks (Basalt),Dug Well,2.12
+Azamgarh,26.053641,83.181213,78,12.5245,Basalt,Dug Well,5.84
+Bagalkot,16.202963,75.707787,525,29.94,Qtz./Schist,Dug Well,3.87
+Bageshwar,29.842812,79.770905,1019,21.23225,Qtz./Schist,Dug Well,13.675
+Baghpat,28.934887,77.226645,220,12.5245,Basalt,Tube Well,23.48
+Bahraich,27.577746,81.598143,123,12.5245,Basalt,Dug Well,1.6
+Balaghat,21.815447,80.1932,308,72.39137892,Basic Rocks (Basalt),Dug Well,6.55
+Balangir,20.705399,83.496116,180,71.0466,Qtz./Schist,Dug Well,4.7
+Baleshwar,21.492432,86.922744,19,28.25,Qtz./Schist,Dug Well,1.0
+Ballia,25.760427,84.155791,63,12.5245,Basalt,Dug Well,4.25
+Balrampur,27.424362,82.195912,105,12.5245,Basalt,Dug Well,2.8
+Banas Kantha,24.185024,72.444088,219,12.5245,Basalt,Dug Well,2.505
+Banda,25.467372,80.325071,116,12.5245,Basalt,Dug Well,2.21
+Bangalore,12.97708,77.596173,918,23.6295,Basalt,Dug Well,2.19
+Banka,24.880617,86.919712,85,34.7345,Basalt,Dug Well,2.17
+Bankura,23.249965,87.061434,89,12.5245,Basalt,Dug Well,2.98
+Banswara,23.545683,74.448134,232,75.7641,Younger Alluvium,Dug Well,5.6
+Barabanki,26.931977,81.203728,122,12.5245,Basalt,Dug Well,8.71
+Baramula,34.200628,74.328035,1689,26.517000000000003,Basalt,Dug Well,5.485
+Baran,25.113409,76.513669,259,40.5095,Unconfined and Confined,Dug Well,2.26
+Barddhaman,23.262279,87.856827,33,26.517000000000003,Unconfined and Confined,Dug Well,1.665
+Bareilly,28.361856,79.419697,176,12.5245,Basalt,Dug Well,1.07
+Bargarh,21.339228,83.63098,178,51.37,Qtz./Schist,Dug Well,2.23
+Barmer,25.743971,71.393059,207,178.3493,Alluvium,Tube Well,38.6
+Barpeta,26.318438,91.012313,43,99.0236,Semi confined,Dug Well,3.42
+Barwani,22.02929,74.891275,183,42.7546,Basalt,Dug Well,6.35
+Baster,19.086747,82.039276,548,27.63955,Basalt,Dug Well,4.87
+Basti,26.801568,82.758574,88,12.5245,Basalt,Dug Well,3.39
+Bathinda,30.293282,74.951926,208,67.7315,Unconfined to Semi Confined,Dug Well,13.37
+Baudh,20.832374,83.922946,109,63.06,Qtz./Schist,Dug Well,3.4
+Baudh,20.826237,84.307596,96,63.06,Qtz./Schist,Dug Well,3.4
+Begusarai,25.409515,86.135757,46,32.7735,Basalt,Dug Well,5.2
+Belgaum,15.858948,74.509438,765,45.627250000000004,Basalt,Dug Well,4.09
+Bellary,15.143301,76.923557,462,58.481,Unconfined Aquifer,Dug Well,2.98
+Betul,21.903513,77.902064,647,24.4782,Basalt,Dug Well,2.94
+Bhadrak,21.068425,86.503508,18,59.29,Qtz./Schist,Dug Well,3.63
+Bhagalpur,25.239305,86.974522,45,35.0285,Basalt,Dug Well,3.0
+Bhandara,21.169245,79.657152,255,43.16215,Limestone,Dug Well,2.55
+Bharatpur,27.213921,77.500799,179,54.8,Unconfined to Semi Confined,Dug Well,2.9
+Bharuch,21.69417,72.978556,14,74.17243333,Unconfined,Dug Well,3.82
+Bhavnagar,21.77414,72.139722,19,121.505,Tertiary Sandstone,Dug Well,4.26
+Bhilwara,25.347483,74.637973,419,75.43603333,Alluvium,Dug Well,7.73
+Bhind,26.564114,78.789336,152,86.412,Phreatic/Granite,Dug Well,12.9
+Bhiwani,28.791052,76.143875,217,76.29,Unconfined and Confined,Dug Well,0.79
+Bhojpur,25.565465,84.677244,60,50.2905,Basalt,Dug Well,4.06
+Bhopal,23.266323,77.414303,495,38.2113,Basalt,Dug Well,6.56
+Bid,18.987824,75.763809,513,37.6369,Basalt,Dug Well,4.17
+Bidar,17.915869,77.531757,661,37.0625,Unconfined Aquifer,Dug Well,1.78
+Bijapur,16.823754,75.719178,604,39.8034,Unconfined,Dug Well,3.48
+Bijnor,29.379583,78.13407,234,12.5245,Basalt,Tube Well,10.98
+Bikaner,28.016543,73.317199,227,78.276,Unconfined,Tube Well,117.9
+Bilaspur,31.323902,76.761527,602,37.52587059,Basic Rocks (Basalt),Dug Well,4.6
+Bilaspur,22.074605,82.176189,266,37.52587059,Basic Rocks (Basalt),Dug Well,4.6
+Birbhum,23.908735,87.534251,72,12.5245,Basalt,Dug Well,1.29
+Bishnupur,24.632371,93.764667,809,40.25725,Basalt,Dug Well,3.265
+Bokaro,23.640657,86.162947,209,67.99,Qtz./Schist,Dug Well,5.24
+Bongaigaon,26.502443,90.564968,61,88.5364,Semi confined,Dug Well,4.67
+Budaun,28.034404,79.124138,171,12.5245,Basalt,Tube Well,16.12
+Bulandshahr,28.400237,77.861025,202,17.2855,Basalt,Tube Well,9.81
+Buldana,20.532223,76.181689,649,22.0465,Basalt,Dug Well,3.5
+Bundi,25.442985,75.643423,310,92.33,Younger Alluvium,Dug Well,8.69
+Burhanpur,21.33186,76.20459,260,44.7515,Basalt,Dug Well,6.25
+Buxar,25.571102,83.98059,64,12.8649,Basalt,Dug Well,3.15
+Cachar,24.820025,92.795038,24,85.1243,Semi confined,Dug Well,5.7
+Chamba,32.558843,76.126097,1009,73.02433333333335,Semi confined,Dug Well,5.533333333333333
+Chamoli,30.401381,79.331112,1248,60.92436666666667,Semi confined,Dug Well,5.366666666666667
+Champawat,29.333337,80.103959,1621,48.824400000000004,Semi confined,Dug Well,5.2
+Champhai,23.489023,93.345186,1348,36.72443333333334,Semi confined,Dug Well,5.033333333333333
+Chamarajanagar,11.936475,76.939171,703,24.62446666666667,Semi confined,Dug Well,4.866666666666667
+Chandauli,25.258531,83.270958,77,12.5245,Basalt,Dug Well,4.7
+Chandel,24.320947,93.989857,941,30.020999999999997,Basalt,Dug Well,13.36
+Chandigarh,30.731928,76.785486,346,47.5175,Basalt,Tube Well,22.02
+Chandrapur,19.951685,79.295823,186,31.84118333,Sandstone,Dug Well,5.4
+Changlang,27.087745,95.731123,772,92.2025,Semi confined,Dug Well,4.3
+Chatra,24.208676,84.866295,430,67.99,Qtz./Schist,Dug Well,8.1
+Chennai,13.074737,80.267689,8,212.5836,Semi Confined,Dug Well,3.2
+Chhatarpur,24.915425,79.592243,305,34.41676667,Granite,Dug Well,4.18
+Chhindwara,22.057572,78.940098,678,33.27001667,Sandstone,Dug Well,11.5
+Chikmagalur,13.318348,75.772746,1031,35.29259363,Sandstone,Dug Well,6.95
+Chitradurga,14.227245,76.402839,738,37.31517059,Limestone,Dug Well,2.4
+Chitrakoot,25.210734,80.914156,138,12.5245,Basalt,Dug Well,13.69
+Chittaurgarh,24.876434,74.619443,404,34.1045,Schist,Dug Well,5.05
+Chittoor,13.215319,79.100032,311,265.06,Semi Confined,Dug Well,5.08
+Churachandpur,24.334438,93.658102,1072,151.98250000000002,Semi Confined,Dug Well,35.595
+Churu,28.300078,74.966601,292,38.905,Schist,Dug Well,66.11
+Coimbatore,10.994743,76.96688,415,245.4181,Semi confined,Bore Well,10.37
+Cuddalore,11.75553,79.762325,8,216.1486,Semi Confined,Dug Well,4.09
+Cuddapah,14.482391,78.82537,130,100.4626,Semi confined,Bore Well,2.23
+Cuttack,20.478116,85.85389,27,49.44,Qtz./Schist,Dug Well,6.67
+Dadra & Nagar Haveli,20.284446,72.998942,37,30.98225,Qtz./Schist,Dug Well,4.859999999999999
+Dakshin Dinajpur,25.230003,88.789755,27,12.5245,Basalt,Dug Well,3.05
+Dakshina Kannada,12.863889,74.841219,21,23.54511111,Basalt,Dug Well,3.0566666666666666
+Daman,20.424388,72.846682,10,34.56572222,Basalt,Dug Well,3.063333333333333
+Damoh,23.824248,79.455215,380,45.58633333,Limestone,Dug Well,3.07
+Dantewada,18.87715,81.367201,380,32.553366665,Limestone,Dug Well,3.6100000000000003
+Darbhanga,26.164221,85.910612,54,19.5204,Basalt,Dug Well,4.15
+Darjiling,27.041527,88.272768,1782,38.33015,Basalt,Dug Well,4.07
+Darrang,26.441811,92.033565,59,57.1399,Basalt,Dug Well,3.99
+Datia,25.673026,78.458158,243,43.5186,Granite,Dug Well,13.37
+Dausa,26.899411,76.334441,336,61.3007,Sandstone,Tube Well,69.98
+Davangere,14.492934,75.936375,578,55.690349999999995,Sandstone,Tube Well,37.165
+Debagarh,21.546245,84.744026,311,50.08,Qtz./Schist,Dug Well,4.35
+Dehradun,30.325264,78.041576,670,12.5245,Basalt,Tube Well,17.58
+Deoghar,24.481265,86.700615,253,67.99,Qtz./Schist,Dug Well,6.37
+Deoria,26.500556,83.783389,79,12.5245,Basalt,Dug Well,5.06
+Dewas,22.962736,76.071156,548,37.979,Basalt,Dug Well,6.64
+Dhalai,23.938769,91.868389,94,12.5245,Basalt,Dug Well,7.75
+Dhamtari,20.703812,81.567596,325,37.31517059,Basic Rocks (Basalt),Dug Well,3.47
+Dhanbad,23.797727,86.436225,239,67.99,Qtz./Schist,Dug Well,6.68
+Dhar,22.598554,75.314536,570,50.5855,Basalt,Dug Well,4.45
+Dharmapuri,12.134803,78.161203,455,243.1568,Semi Confined,Dug Well,3.2
+Dharwad,15.452454,75.012073,723,23.8764,Basalt,Dug Well,10.73
+Dhaulpur,26.693948,77.894554,175,45.4817,Unconfined Aquifer,Tube Well,10.32
+Dhemaji,27.4844,94.594933,100,69.054,Basalt,Tube Well,2.8
+Dhenkanal,20.654734,85.588016,86,50.08,Qtz./Schist,Dug Well,7.19
+Dhubri,26.019042,89.991086,29,12.857,Basalt,Dug Well,5.2
+Dhule,20.90441,74.781243,261,63.5674,Unconfined ,Dug Well,2.5
+Dibang Valley,28.850861,95.871559,1775,38.5267,Unconfined ,Dug Well,3.41
+Dibrugarh,27.480193,94.912419,107,13.486,Basalt,Dug Well,4.32
+Dimapur,25.91789,93.746839,145,71.0466,Qtz./Schist,Dug Well,8.42
+Dindigul,10.361936,77.968908,277,294.0866,Semi Confined,Dug Well,3.07
+Dindori,22.939702,81.083584,682,24.71614862,Limestone,Dug Well,4.26
+Diu,20.713309,70.979548,3,49.111040975,Limestone,Dug Well,6.5
+Dohad,22.823003,74.263925,299,73.50593333,Alluvium,Dug Well,8.74
+Dumka,24.271014,87.249367,148,67.99,Qtz./Schist,Dug Well,4.87
+Dungarpur,23.837104,73.716702,314,57.305,Schist,Dug Well,10.2
+Durg,21.188278,81.275855,291,37.08517059,Basic Rocks (Basalt),Dug Well,5.05
+East Sikkim,27.328923,88.616469,1545,64.214485295,Basic Rocks (Basalt),Dug Well,3.775
+East Garo Hills,25.528369,90.593784,267,91.3438,Qtz./Schist,Dug Well,2.5
+East Godavari,16.969397,82.236435,8,9.8932,Basalt,Dug Well,8.26
+East Kameng,27.333113,93.063248,773,51.1805,Basalt,Dug Well,4.68
+East Khasi Hills,25.588025,91.887356,1444,92.4678,Qtz./Schist,Dug Well,1.1
+East Nimar,21.827574,76.356018,313,92.33515,Qtz./Schist,Dug Well,5.67
+East Siang,28.065355,95.333325,161,92.2025,Semi confined,Dug Well,10.24
+Ernakulam,9.956764,76.292401,4,89.3283,Semi Confined,Dug Well,1.85
+Erode,11.334348,77.72772,170,237.1061,Semi Confined,Bore Well,5.9
+Etah,27.55673,78.657582,170,12.5245,Basalt,Dug Well,3.25
+Etawah,26.77697,79.025561,149,12.5245,Basalt,Tube Well,7.64
+Faizabad,26.781125,82.149876,102,44.372249999999994,Basalt,Tube Well,18.97
+Faridabad,28.427902,77.329409,204,76.22,Semi-Confined To Confined,Tube Well,30.3
+Faridkot,30.67333,74.758547,203,51.397,Unconfined to Semi Confined,Dug Well,19.56
+Farrukhabad,27.367541,79.635106,147,12.5245,Basalt,Dug Well,4.4
+Fatehabad,29.516385,75.4548,212,66.64,Unconfined to Semi Confined,Tube Well,3.1
+Fatehgarh Sahib,30.647528,76.406922,268,76.29,Unconfined and Confined,Tube Well,26.59
+Fatehpur,25.927961,80.817369,117,12.5245,Basalt,Dug Well,3.92
+Firozabad,27.142217,78.398303,163,12.5245,Basic Rocks (Basalt),Tube Well,8.34
+Firozpur,30.939516,74.619239,197,62.5257,Younger Alluvium,Tube Well,5.97
+Gadag,15.441432,75.646857,647,17.3936,Basalt,Dug Well,0.76
+Gadchiroli,20.184794,80.007887,210,35.13918333,Limestone,Dug Well,4.1
+Gajapati,18.776646,84.080324,60,48.76,Unconfined,Dug Well,9.36
+Gandhinagar,23.235737,72.671374,79,45.965,Alluvium,Tube Well,24.88
+Ganganagar,29.928315,73.867201,177,62.923,Unconfined ,Dug Well,17.15
+Ganjam,19.350441,84.985993,23,48.99,Qtz./Schist,Dug Well,1.4
+Garwah,24.17351,83.81231,211,36.834833333333336,Qtz./Schist,Dug Well,14.47
+Garhwal,30.152136,78.780959,1391,24.679666666666666,Qtz./Schist,Dug Well,27.54
+Gautam Buddha Nagar,28.567013,77.327519,201,12.5245,Basalt,Tube Well,40.61
+Gaya,24.79151,85.004475,119,16.9414,Basalt,Dug Well,3.62
+Ghaziabad,28.660255,77.445653,215,12.5245,Basalt,Tube Well,6.68
+Ghazipur,25.586118,83.581496,71,12.5245,Basalt,Dug Well,1.92
+Giridih,24.189967,86.313267,296,67.99,Qtz./Schist,Dug Well,5.6
+Goalpara,26.176465,90.631164,40,9.172,Basalt,Dug Well,7.18
+Godda,24.829078,87.215924,91,67.99,Qtz./Schist,Dug Well,8.41
+Golaghat,26.509522,93.974001,101,9.5832,Basalt,Dug Well,5.16
+Gonda,27.133796,81.962471,109,12.5245,Basalt,Dug Well,2.4
+Gondiya,21.448734,80.1972,313,14.73295,Basalt,Dug Well,2.525
+Gopalganj,26.465323,84.444294,72,16.9414,Basalt,Dug Well,2.65
+Gorakhpur,26.759828,83.370935,83,12.5245,Basalt,Dug Well,3.83
+Gulbarga,17.334962,76.834784,465,21.8594,Basalt,Dug Well,4.7
+Gumla,23.026635,84.534374,653,67.99,Qtz./Schist,Dug Well,6.02
+Guna,24.644351,77.313136,477,34.2929,Sandstone,Dug Well,1.84
+Guntur,16.297356,80.447394,32,92.2025,Semi confined,Dug Well,1.27
+Gurdaspur,32.045131,75.408744,264,65.06,Unconfined to Semi Confined,Dug Well,7.83
+Gurgaon,28.466248,77.028569,225,68.69,Unconfined and Confined,Tube Well,17.65
+Gwalior,26.222524,78.168463,233,47.82116667,Unconfined Aquifer,Dug Well,3.9
+Hailakandi,24.709416,92.568191,24,9.4736,Basalt,Dug Well,7.63
+Hamirpur,31.672705,76.521404,750,72.72,Semi-Confined To Confined,Dug Well,2.37
+Hamirpur,25.959941,80.117055,107,72.72,Semi-Confined To Confined,Dug Well,2.37
+Hanumangarh,29.577336,74.320427,183,51.3608,Basalt,Dug Well,10.6
+Haora,22.567906,88.327811,6,46.21015,Basalt,Dug Well,9.24
+Harda,22.336719,77.085484,286,41.0595,Basalt,Dug Well,7.88
+Hardoi,27.395551,80.127149,145,12.5245,Basalt,Dug Well,2.6
+Hardwar,29.919595,78.162848,278,14.73295,Basalt,Dug Well,5.49
+Hassan,13.008913,76.098149,952,16.9414,Basalt,Dug Well,8.38
+Hathras,27.585241,78.05918,179,12.5245,Basalt,Dug Well,2.35
+Haveri,14.810215,75.407562,562,16.2075,Basalt,Dug Well,5.8
+Hazaribagh,23.988567,85.36671,615,67.99,Qtz./Schist,Dug Well,6.6
+Hingoli,19.713154,77.153409,457,47.5592,Basalt,Dug Well,4.0
+Hisar,29.151765,75.725027,213,76.0,Unconfined to Semi Confined,Dug Well,16.9
+Hoshangabad,22.740101,77.713729,304,49.843,Basalt,Dug Well,8.35
+Hoshiarpur,31.535053,75.914418,305,76.54,"Unconfined, Confined & Leaky Confined",Tube Well,15.37
+Hugli,22.900631,88.396631,12,12.5245,Basalt,Dug Well,3.04
+Hyderabad,17.399667,78.488244,507,9.6587,Basalt,Bore Well,6.01
+Idukki,9.900515,77.176271,1066,204.182,Semi Confined,Dug Well,5.87
+Imphal,24.811571,93.950799,783,128.02465,Semi Confined,Dug Well,11.985
+Indore,22.716881,75.867271,553,51.8673,Basalt,Dug Well,18.1
+Jabalpur,23.172246,79.937619,406,34.01698333,Limestone,Dug Well,2.36
+Jagatsinghapur,20.26385,86.166024,13,47.996,Qtz./Schist,Dug Well,1.57
+Jaintia Hills,25.438113,92.198261,1321,52.886250000000004,Qtz./Schist,Dug Well,4.645
+Jaipur,26.914736,75.810664,439,57.7765,Basalt,Dug Well,7.72
+Jaisalmer,26.911481,70.91459,237,69.1766,BASALT,Dug Well,6.58
+Jajapur,20.844687,86.32523,15,47.99,Qtz./Schist,Dug Well,1.2
+Jalandhar,31.339673,75.581698,239,76.0,"Unconfined, Confined & Leaky Confined",Dug Well,6.75
+Jalaun,25.989945,79.454191,139,12.5245,Basalt,Dug Well,24.18
+Jalgaon,21.009559,75.570044,218,64.975,Unconfined ,Dug Well,4.17
+Jalna,19.848844,75.901627,505,69.478,Unconfined ,Dug Well,7.0
+Jalor,25.342919,72.620614,247,88.4574,BASALT,Tube Well,46.7
+Jalpaiguri,26.527845,88.719039,85,12.5245,Basalt,Dug Well,3.35
+Jammu,32.727401,74.8456,308,69.616,Unconfined to Semi Confined,Dug Well,14.41
+Jamnagar,22.471076,70.07265,18,122.2945,Sandstone,Dug Well,6.69
+Jamtara,23.959798,86.788385,191,67.99,Qtz./Schist,Dug Well,7.88
+Jamui,24.925934,86.216344,83,16.9414,Basalt,Dug Well,10.67
+Janjgir,22.003783,82.594618,268,27.128285295,Basalt,Dug Well,6.8149999999999995
+Jashpur,22.892329,84.158393,761,37.31517059,Limestone,Dug Well,2.96
+Jaunpur,25.748744,82.687741,80,12.5245,Basalt,Dug Well,8.23
+Jehanabad,25.212198,84.982009,67,16.9414,Basalt,Dug Well,3.55
+Jhabua,22.769906,74.599553,324,52.9748,Basalt,Dug Well,5.45
+Jhajjar,28.601349,76.6536,215,71.56,Semi-Confined To Confined,Dug Well,1.31
+Jhalawar,24.592312,76.165807,312,14.2214,Basalt,Dug Well,4.64
+Jhansi,25.462975,78.57546,243,12.5245,Basic Rocks (Basalt),Dug Well,3.83
+Jharsuguda,21.851989,84.025951,224,44.354,Qtz./Schist,Dug Well,5.95
+Jhunjhunun,28.129504,75.400108,338,16.1575,Basalt,Tube Well,41.4
+Jind,29.318821,76.313347,226,71.81,Unconfined and Confined,Tube Well,29.5
+Jodhpur,26.279624,73.022778,241,101.2769585,BASALT,Tube Well,19.5
+Jorhat,26.754666,94.218519,94,9.62,Basalt,Dug Well,1.82
+Junagadh,21.522705,70.461296,98,136.456,Sandstone,Dug Well,5.2
+Jyotiba Phule Nagar,28.906416,78.462509,216,12.5245,Basic Rocks (Basalt),Tube Well,14.94
+Kachchh,23.251213,69.666108,99,124.197,Sandstone,Tube Well,10.03
+Kaimur,25.040295,83.602718,84,15.4053,Basalt,Dug Well,3.8
+Kaithal,29.804185,76.399321,237,71.59,Unconfined and Confined,Tube Well,46.3
+Kalahandi,19.910373,83.176494,261,44.594,Unconfined Aquifer,Dug Well,5.11
+Kamrup,26.181061,91.751916,59,9.6587,Basalt,Dug Well,1.98
+Kancheepuram,12.834822,79.715697,83,216.1486,Semi Confined,Dug Well,1.75
+Kandhamal,20.467657,84.240574,503,44.594,Qtz./Schist,Dug Well,6.98
+Kangra,32.217751,76.31406,1291,71.59,Unconfined and Confined,Dug Well,4.58
+Kanker,20.275167,81.50583,402,37.08517059,Limestone,Dug Well,3.16
+Kannauj,27.056124,79.926694,133,133.593685295,Limestone,Dug Well,3.415
+Kanniyakumari,8.175865,77.440953,27,230.1022,Semi Confined,Dug Well,3.67
+Kannur,11.868687,75.36639,15,99.4814,Semi Confined,Dug Well,8.76
+Kanpur Dehat,26.375967,79.955267,132,12.5245,Basalt,Dug Well,2.05
+Kanpur Nagar,26.461855,80.344194,132,12.5245,Basalt,Dug Well,1.64
+Kapurthala,31.379585,75.385678,226,76.0,"Unconfined, Confined & Leaky Confined",Tube Well,17.43
+Karaikal,10.917964,79.837646,3,66.8,Unconfined,Dug Well,4.17
+Karauli,26.4987,77.022184,273,13.0265,Basalt,Dug Well,9.64
+Karbi Anglong,25.838215,93.446934,199,11.5338,Basalt,Dug Well,5.37
+Karimganj,24.871588,92.353828,22,10.0411,Basalt,Dug Well,1.1
+Karimnagar,18.431912,79.144791,263,12.8649,Basalt,Dug Well,2.81
+Karnal,29.692495,76.985142,251,71.56,Semi-Confined To Confined,Tube Well,34.04
+Karur,10.948948,78.086832,123,294.0866,Semi Confined,Dug Well,7.5
+Kasaragod,12.498305,74.990213,18,99.8365,Semi Confined,Dug Well,2.81
+Kathua,32.359369,75.516357,313,66.64,Unconfined to Semi Confined,Dug Well,20.71
+Katihar,25.537374,87.583497,32,15.4053,Basalt,Dug Well,4.98
+Katni,23.841092,80.397878,380,39.89854559,Limestone,Dug Well,7.95
+Kaushambi,25.524545,81.383437,104,12.5245,Basalt,Dug Well,22.06
+Kawardha,22.006266,81.259515,338,41.45167059,Limestone,Dug Well,4.4
+Kendrapara,20.508399,86.417262,6,46.08,Qtz./Schist,Dug Well,4.48
+Kendujhar,21.644926,85.583459,482,70.482,Qtz./Schist,Dug Well,9.45
+Khagaria,25.508751,86.472735,41,15.4053,Basalt,Dug Well,4.5
+Khammam,17.245344,80.140567,116,9.62,Basalt,Bore Well,7.03
+Kheda,22.747316,72.695273,26,65.34153333,Younger Alluvium,Dug Well,1.15
+Kheri,27.947796,80.788432,147,12.5245,Basalt,Dug Well,2.78
+Khordha,20.187781,85.622131,44,76.456,Qtz./Schist,Dug Well,1.62
+Kinnaur,31.546954,78.26285,2589,45.93065,Qtz./Schist,Dug Well,2.495
+Kishanganj,26.112966,87.9283,50,15.4053,Basalt,Dug Well,3.37
+Koch Bihar,26.328292,89.453617,45,53.8039,Basalt,Dug Well,3.7600000000000002
+Kodagu,12.422433,75.744027,1152,92.2025,Semi confined,Dug Well,4.15
+Kodarma,24.463,85.587047,386,65.69616666666667,Semi confined,Dug Well,3.7233333333333336
+Kohima,25.684924,94.118903,1410,39.18983333333333,Semi confined,Dug Well,3.296666666666667
+Kokrajhar,26.40281,90.273819,47,12.6835,Basalt,Dug Well,2.87
+Kolar,13.135759,78.136263,835,92.2025,Semi confined,Dug Well,2.8
+Kolasib,24.252182,92.690303,364,74.35075,Semi confined,Dug Well,6.5
+Kolhapur,16.694394,74.22406,559,56.499,Schist,Dug Well,10.2
+Kolkata,22.548783,88.39894,5,131.51165,Schist,Dug Well,6.215
+Kollam,8.888392,76.609021,18,206.5243,Semi Confined,Dug Well,2.23
+Koppal,15.362997,76.167916,539,99.7233,Semi confined,Dug Well,1.43
+Koraput,18.80694,82.719909,875,101.09,Qtz./Schist,Dug Well,5.32
+Korba,22.337193,82.715651,288,37.31517059,Limestone,Dug Well,3.7
+Koriya,23.244843,82.570516,538,37.31517059,Limestone,Dug Well,3.2
+Kota,25.179993,75.846204,263,8.726,Basalt,Dug Well,4.87
+Kottayam,9.595602,76.521426,12,128.4502,Semi Confined,Dug Well,4.47
+Kozhikode,11.239895,75.795215,14,89.9617,Semi Confined,Dug Well,7.04
+Krishna,16.189204,81.136184,9,92.2025,Semi confined,Dug Well,5.62
+Krishnagiri,12.533802,78.228528,512,238.7765,Semi Confined,Dug Well,2.23
+Kullu,31.960573,77.107897,1454,167.52795,Semi Confined,Dug Well,2.7
+Kurnool,15.834985,78.041533,283,96.2794,Semi Confined,Bore Well,3.17
+Kurukshetra,29.962444,76.838151,256,72.01,Semi-Confined To Confined,Tube Well,40.63
+Kurung Kumey,27.861258,93.499644,985,42.267250000000004,Semi-Confined To Confined,Tube Well,21.415000000000003
+Kushinagar,26.907172,83.985134,88,12.5245,Basalt,Dug Well,2.2
+Lahul & Spiti,32.574709,77.040806,3458,12.5245,Basalt,Dug Well,2.015
+Lakhimpur,27.236148,94.105136,93,12.5245,Basalt,Dug Well,1.83
+Lakhisarai,25.176411,86.090783,47,15.4053,Basalt,Dug Well,6.2
+Lakshdweep,10.568609,72.640306,-7,13.9649,Basalt,Dug Well,5.925000000000001
+Lalitpur,24.691585,78.418609,357,12.5245,Basic Rocks (Basalt),Dug Well,5.65
+Latehar,23.75162,84.509376,406,58.15,Qtz./Schist,Dug Well,5.12
+Latur,18.401122,76.576955,629,45.601,Sandstone,Dug Well,5.6
+Leh,34.138736,77.565158,3322,52.7505,Sandstone,Dug Well,6.925
+Lohardaga,23.432486,84.681568,659,59.9,Qtz./Schist,Dug Well,8.25
+Lohit,27.925439,96.166869,221,92.2025,Semi confined,Dug Well,5.77
+Lower Dibang Valley,28.1375,95.798781,289,92.2025,Semi confined,Dug Well,5.52
+Lower Subansiri,27.5556,93.812343,1661,92.2025,Semi confined,Dug Well,5.27
+Lucknow,26.83323,80.943614,123,12.5245,Basalt,Dug Well,12.52
+Ludhiana,30.908679,75.851626,249,76.29,Unconfined and Confined,Tube Well,24.91
+Lunglei,22.888359,92.746609,921,46.5094,Unconfined and Confined,Tube Well,15.605
+Madhepura,25.921099,86.792579,47,16.7288,Basalt,Dug Well,6.3
+Madhubani,26.356596,86.070431,59,22.1176,Basalt,Dug Well,3.83
+Madurai,9.924937,78.129356,137,257.7877,Semi Confined,Bore Well,6.11
+Maharajganj,27.146858,83.567801,93,147.55143529499998,Semi Confined,Bore Well,6.34
+Mahasamund,21.09393,82.111104,291,37.31517059,Unconfined,Dug Well,6.57
+Mahbubnagar,16.744426,77.991612,505,56.022585295,Unconfined,Dug Well,5.87
+Mahendragarh,28.045836,76.11006,307,74.73,Unconfined and Confined,Dug Well,5.17
+Mahesana,23.60274,72.385689,89,160.5291,Alluvium,Dug Well,1.73
+Mahoba,25.286105,79.880627,210,12.5245,Basalt,Dug Well,4.38
+Mainpuri,27.229325,79.049369,158,12.5245,Basalt,Tube Well,8.37
+Malappuram,11.043786,76.085683,51,105.5576,Semi Confined,Dug Well,5.35
+Maldah,25.010231,88.147599,28,81.8838,Semi Confined,Dug Well,5.23
+Malkangiri,18.357914,81.897509,203,58.21,Qtz./Schist,Dug Well,5.11
+Mamit,23.942233,92.499553,541,61.375,Qtz./Schist,Dug Well,4.905
+Mandi,31.711956,76.932031,840,64.54,Unconfined To Semi-Confined,Dug Well,4.7
+Mandla,22.605889,80.370917,447,36.46422892,Limestone,Dug Well,5.27
+Mandsaur,24.063675,75.074883,435,59.345,Alluvium/Sandstone,Dug Well,5.0
+Mandya,12.517368,76.898666,679,92.9708,Semi confined,Dug Well,11.15
+Mansa,29.986894,75.390143,219,84.1285,"Unconfined, Confined & Leaky Confined",Tube Well,19.73
+Marigaon,26.255106,92.337553,61,48.3265,"Unconfined, Confined & Leaky Confined",Tube Well,13.085
+Mathura,27.494256,77.684411,177,12.5245,Basalt,Dug Well,6.44
+Mau,25.947961,83.561419,73,36.30225,Basalt,Dug Well,5.745
+Mayurbhanj,21.944929,86.725858,41,60.08,Qtz./Schist,Dug Well,5.05
+Medak,17.625811,78.082342,515,26.151,Basalt,Dug Well,0.01
+Meerut,28.986554,77.70386,227,12.5245,Basalt,Dug Well,10.3
+Mirzapur,25.143896,82.562668,81,12.5245,Basalt,Dug Well,7.09
+Moga,30.801361,75.162775,221,65.68,Unconfined to Semi Confined,Tube Well,28.33
+Mokokchung,26.321208,94.519572,1135,47.9615,Unconfined to Semi Confined,Tube Well,24.509999999999998
+Mon,26.723923,95.031768,666,30.243000000000002,Unconfined to Semi Confined,Tube Well,20.69
+Moradabad,28.832848,78.780652,202,12.5245,Basic Rocks (Basalt),Tube Well,16.87
+Morena,26.500863,78.001752,176,31.2314,SANDSTONE,Dug Well,18.4
+Muktsar,30.463978,74.517016,199,71.3105,Unconfined to Semi Confined,Dug Well,10.89
+Mumbai,18.987074,72.830007,8,54.60946666666667,Unconfined to Semi Confined,Dug Well,8.96
+Mumbai (Suburban),19.054135,72.832678,4,37.908433333333335,Unconfined to Semi Confined,Dug Well,7.029999999999999
+Munger,25.37403,86.47675,48,21.2074,Basalt,Dug Well,5.1
+Murshidabad,24.100513,88.278789,21,12.5245,Basalt,Dug Well,1.35
+Muzaffarnagar,29.471716,77.700412,247,12.5245,Basalt,Dug Well,7.93
+Muzaffarpur,26.117382,85.406908,58,20.7474,Basalt,Dug Well,4.9
+Mysore,12.309442,76.654533,752,88.8857,Semi confined,Dug Well,3.35
+Nabarangapur,19.224792,82.557829,568,67.99,Qtz./Schist,Dug Well,6.12
+Nadia,23.418592,88.504458,14,12.5245,Basalt,Dug Well,5.08
+Nagaon,26.355771,92.686525,68,24.5359,Basalt,Dug Well,2.43
+Nagapattinam,10.770587,79.834871,3,216.1486,Semi Confined,Dug Well,2.96
+Nagaur,27.200302,73.736974,297,15.3411,Basalt,Tube Well,29.1
+Nagpur,21.148204,79.096814,310,49.642,Phreatic/Sandstone,Bore Well,4.1
+Nainital,29.380565,79.470524,1922,12.5245,Basalt,Tube Well,55.39
+Nalanda,25.194764,85.521417,59,19.4604,Basalt,Dug Well,3.3
+Nalbari,26.444776,91.445234,53,14.397,Basalt,Dug Well,1.96
+Nalgonda,17.061325,79.267503,245,11.836,Basalt,Bore Well,3.7
+Namakkal,11.225821,78.171836,195,334.4157,Semi Confined,Dug Well,3.8
+Nanded,19.159314,77.313188,363,41.2023,Sandstone,Dug Well,5.0
+Nandurbar,21.36675,74.244736,215,70.617,Shale / Sandstone,Dug Well,2.0
+Narmada,21.875823,73.499823,35,73.6359,Younger Alluvium,Dug Well,5.49
+Narsimhapur,22.948386,79.193312,357,29.72588333,Phreatic/Basalt,Dug Well,20.4
+Nashik,20.006006,73.795878,580,69.4325,Schist/ Phylite/ Gneisses,Dug Well,15.7
+Navsari,20.948755,72.925226,12,71.7318,Younger Alluvium,Dug Well,6.84
+Nawada,24.887955,85.543198,88,17.2358,Basalt,Dug Well,5.2
+Nawanshahr,31.120012,76.130554,258,42.612899999999996,Basalt,Dug Well,4.65
+Nayagarh,20.120189,85.098925,148,67.99,Qtz./Schist,Dug Well,4.1
+Neemuch,24.473691,74.876342,488,47.914,Shale / Sandstone,Bore Well,5.5
+Nellore,14.449206,79.983616,22,103.1191,Semi confined,Dug Well,0.23
+Nizamabad,18.654235,78.09389,389,16.9414,Basalt,Bore Well,6.26
+North,27.50395,88.536203,1171,38.211133333333336,Basalt,Bore Well,8.096666666666666
+North Cachar Hills,25.167627,93.015884,630,59.48086666666667,Basalt,Bore Well,9.933333333333334
+North Goa,15.480081,73.822329,12,80.7506,Gneiss,Dug Well,11.77
+North Tripura,24.342116,92.017914,32,12.5245,Basalt,Dug Well,2.76
+North 24 Parganas,22.724797,88.507529,10,40.25725,Basalt,Dug Well,4.38
+Nuapada,20.819327,82.555776,344,67.99,Qtz./Schist,Dug Well,6.0
+Osmanabad,18.181663,76.041686,656,62.989,Sandstone,Dug Well,3.1
+Pachim Sionghum,22.554553,85.808737,229,73.31136666666667,Sandstone,Dug Well,3.62
+Pakaur,24.635842,87.834711,41,83.63373333333334,Sandstone,Dug Well,4.140000000000001
+Palakkad,10.772089,76.658319,91,93.9561,Semi Confined,Dug Well,4.66
+Palamu,24.040242,84.069328,225,76.456,Qtz./Schist,Dug Well,6.1
+Pali,25.777043,73.322215,216,50.1443,Unconfined ,Dug Well,7.9
+Panch Mahals,22.772915,73.60953,123,62.16715,Unconfined ,Dug Well,12.375
+Panchkula,30.722619,76.880191,387,74.19,Semi-Confined To Confined,Dug Well,16.85
+Panipat,29.387951,76.968552,236,66.35,Semi-Confined To Confined,Tube Well,15.52
+Panna,24.719464,80.189266,410,26.0515,Phreatic/Granite,Dug Well,5.4
+Papum Pare,27.101465,93.597901,372,40.4875,Phreatic/Granite,Dug Well,4.7
+Parbhani,19.268358,76.777025,418,54.9235,Sandstone,Dug Well,4.0
+Paschim Medinapur,22.42833,87.323882,44,89.77416666666667,Sandstone,Dug Well,5.293333333333333
+Paschim Champaran,26.804014,84.510335,78,124.62483333333336,Sandstone,Dug Well,6.586666666666666
+Patan,23.845103,72.111466,81,159.4755,Younger Alluvium,Dug Well,7.88
+Pathanamthitta,9.294782,76.75528,77,122.3676,Semi Confined,Dug Well,6.22
+Patiala,30.317367,76.407038,252,70.40559999999999,Semi Confined,Dug Well,4.005
+Patna,25.603125,85.119195,57,18.4436,Basalt,Dug Well,1.79
+Perambalur,11.243109,78.866417,132,216.1486,Semi Confined,Dug Well,3.95
+Phek,25.701797,94.465739,1323,114.33654999999999,Semi Confined,Dug Well,4.125
+Pilibhit,28.634994,79.812128,188,12.5245,Basalt,Dug Well,4.3
+Pithoragarh,29.583696,80.203698,1578,49.11449999999999,Basalt,Dug Well,4.116666666666666
+Pondicherry,11.935363,79.83229,6,85.7045,Basalt,Dug Well,3.933333333333333
+Porbandar,21.636581,69.59674,0,122.2945,Younger Alluvium,Dug Well,3.75
+Prakasam,15.514451,80.048738,12,92.727,Semi confined,Bore Well,0.82
+Pratapgarh,25.93741,81.995137,94,75.8041,Semi confined,Tube Well,8.5
+Pudukkottai,10.383944,78.81216,99,216.1486,Semi Confined,Dug Well,4.8
+Punch,33.773791,74.081247,1009,127.64429999999999,Semi Confined,Dug Well,6.215
+Pune,18.525994,73.862602,556,39.14,Gneiss,Dug Well,7.63
+Purba Champaran,26.653574,84.925161,69,18.4756,Basalt,Dug Well,3.56
+Purba Medinapur,22.301044,87.919817,6,34.9804,Basalt,Dug Well,2.796666666666667
+East Singbhum,22.799522,86.197389,159,51.4852,Basalt,Dug Well,2.033333333333333
+Puri,19.79549,85.838807,4,67.99,Qtz./Schist,Dug Well,1.27
+Purnia,25.777226,87.47066,41,23.5703,Basalt,Dug Well,4.78
+Puruliya,23.332193,86.366718,246,18.0474,Basalt,Dug Well,3.125
+Rae Bareli,26.231689,81.230631,114,12.5245,Basalt,Dug Well,1.47
+Raichur,16.207752,77.358779,406,101.3619,Semi confined,Dug Well,7.15
+Raigarh,21.908949,83.395958,222,37.31517059,Unconfined,Dug Well,5.83
+Raigarh,18.646539,72.875994,4,37.31517059,Unconfined,Dug Well,5.83
+Raipur,21.227374,81.629069,295,37.31517059,Unconfined,Dug Well,4.0
+Raisen,23.33011,77.780588,451,18.08216667,Basalt,Dug Well,8.05
+Rajgarh,24.005868,76.739744,378,44.256,Sandstone,Dug Well,8.53
+Rajkot,22.295207,70.805355,133,128.779,Younger Alluvium,Dug Well,2.91
+Rajnandgaon,21.089426,81.034625,304,49.85398182,Unconfined,Dug Well,2.15
+Rajsamand,25.075336,73.860393,565,102.9838,BASALT,Dug Well,9.58
+Ramanathapuram,9.363516,78.840969,9,192.3486,Semi Confined,Dug Well,5.15
+Rampur,28.791807,79.029148,191,12.5245,Basalt,Tube Well,3.81
+Ranchi,23.363068,85.340321,635,44.594,Qtz./Schist,Dug Well,6.07
+Ratlam,23.327034,75.040755,484,54.904,Unconfined ,Dug Well,22.7
+Ratnagiri,16.990597,73.297537,21,38.3279,Gneiss,Dug Well,2.1
+Rayagada,19.165286,83.412105,223,67.99,Qtz./Schist,Dug Well,2.0
+Rewa,24.540725,81.288305,300,37.31517059,Unconfined,Dug Well,9.06
+Rewari,28.198138,76.615433,247,71.79,Semi-Confined To Confined,Tube Well,12.07
+Ri Bhoi,25.915944,91.88132,589,71.80000000000001,Semi-Confined To Confined,Tube Well,7.115
+Rohtak,28.888214,76.587935,223,71.81,Semi-Confined To Confined,Dug Well,2.16
+Rohtas,24.92088,84.039698,154,23.8764,Basalt,Dug Well,6.4
+Rudraprayag,30.29541,78.986665,817,47.688199999999995,Basalt,Dug Well,5.335
+Rupnagar,30.964466,76.526375,275,71.5,Unconfined and Confined,Dug Well,4.27
+Sabar Kantha,23.605115,72.96492,142,60.820499999999996,Unconfined and Confined,Dug Well,2.945
+Sagar,23.837188,78.749867,530,50.141,Sandstone,Dug Well,1.62
+Saharanpur,29.965049,77.553476,277,12.5245,Basalt,Dug Well,5.47
+Saharsa,25.872235,86.59889,45,23.8764,Basalt,Dug Well,2.3
+Sahibganj,25.244524,87.632966,44,87.96713333333334,Basalt,Dug Well,3.7666666666666666
+Saiha,22.513447,92.979389,733,152.05786666666665,Basalt,Dug Well,5.233333333333333
+Salem,11.65821,78.152968,284,216.1486,Semi Confined,Dug Well,6.7
+Samastipur,25.846512,85.779185,49,23.8764,Basalt,Dug Well,5.16
+Sambalpur,21.466623,83.986047,159,67.99,Qtz./Schist,Dug Well,8.95
+Sangli,16.860757,74.57878,553,29.2667,Gneiss,Dug Well,3.05
+Sangrur,30.241479,75.841924,237,75.34,"Unconfined, Confined & Leaky Confined",Tube Well,42.26
+Sant Kabir Nagar,26.778133,83.086966,80,12.5245,Basalt,Dug Well,3.12
+Sant Ravidas Nagar,25.335702,82.46387,88,12.5245,Basalt,Dug Well,3.62
+Saraikela,22.715002,85.939556,183,62.05,Qtz./Schist,Dug Well,3.8
+Saran,25.777293,84.751385,56,22.992,Basalt,Dug Well,5.28
+Satara,17.690393,74.010744,689,42.3509,Schist,Dug Well,6.2
+Satna,24.566488,80.833433,318,42.24387059,Unconfined,Dug Well,3.0
+Sawai Madhopur,25.987844,76.381194,318,94.2739,Semi confined,Dug Well,2.79
+Sehore,23.206208,77.085006,499,45.7445,Sandstone,Dug Well,3.85
+Senapati,25.302888,94.048471,1163,45.878524999999996,Sandstone,Dug Well,4.745
+Seoni,22.088143,79.548337,617,46.01255,Basic Rocks (Basalt),Dug Well,5.64
+Serchhip,23.3256,92.864991,798,41.548860295,Basic Rocks (Basalt),Dug Well,3.84
+Shahdol,23.294345,81.360684,464,37.08517059,Unconfined,Dug Well,2.04
+Shahjahanpur,27.871092,79.908609,153,40.916585295,Unconfined,Dug Well,4.835
+Shajapur,23.423091,76.280682,445,44.748,Basalt,Dug Well,7.63
+Sheikhpura,25.147495,85.839471,48,36.6442,Basalt,Dug Well,4.765
+Sheohar,26.514445,85.29636,66,28.5404,Basalt,Dug Well,1.9
+Sheopur,25.676035,76.698332,229,58.18035,Older Alluvium,Dug Well,4.5
+Shimla,31.10003,77.171181,2056,112.691225,Older Alluvium,Dug Well,2.9
+Shimoga,13.930893,75.576068,582,167.2021,Semi confined,Dug Well,1.3
+Shivpuri,25.42602,77.653283,468,35.2786,Unconfined Aquifer,Dug Well,8.0
+Shrawasti,27.700545,81.931928,121,12.5245,Basalt,Dug Well,1.62
+Sibsagar,26.984297,94.639508,95,15.374,Basalt,Dug Well,2.25
+Siddharthnagar,27.246253,83.066141,87,12.5245,Basalt,Dug Well,2.4
+Sidhi,24.409558,81.883792,278,37.31517059,Unconfined,Dug Well,4.3
+Sikar,27.610617,75.147048,433,103.7365,Semi Confined,Tube Well,17.64
+Simdega,22.615172,84.502538,432,43.8,Qtz./Schist,Dug Well,5.65
+Sindhudurg,16.107985,73.714977,28,56.074999999999996,Qtz./Schist,Dug Well,7.175
+Sirmaur,30.525617,77.230732,438,68.35,Semi-Confined To Confined,Dug Well,8.7
+Sirohi,24.89138,72.857774,317,115.2858585,BASALT,Tube Well,6.85
+Sirsa,29.531177,75.026343,203,65.68,Unconfined to Semi Confined,Tube Well,5.05
+Sitamarhi,26.59391,85.496766,68,26.9824,Basalt,Dug Well,4.9
+Sitapur,27.563585,80.686343,139,12.5245,Basalt,Dug Well,2.12
+Sivaganga,9.860311,78.481581,102,24.027535295,Basalt,Dug Well,3.01
+Siwan,26.22132,84.361494,67,35.53057059,Basalt,Dug Well,3.9
+Solan,30.910522,77.108405,1499,67.1,Unconfined and Confined,Dug Well,19.44
+Solapur,17.672099,75.907906,471,112.854,Older Alluvium,Dug Well,3.5
+Sonbhadra,24.687697,83.069029,315,12.5245,Basalt,Dug Well,9.33
+Sonipat,28.979449,77.024728,222,69.78,Unconfined and Confined,Dug Well,2.75
+Sonitpur,26.623221,92.791733,72,16.67,Basalt,Dug Well,2.17
+South,27.163151,88.359601,1274,14.59725,Basalt,Dug Well,1.585
+South 24 Parganas,22.484754,88.265534,6,12.5245,Basalt,Dug Well,1.0
+South Garo Hills,25.200104,90.645557,64,43.16154999999999,Basalt,Dug Well,2.9
+South Goa,15.304936,73.959411,31,73.7986,Gneiss,Dug Well,4.8
+South Tripura,23.53045,91.485363,26,12.5245,Basalt,Dug Well,1.46
+Srikakulam,18.296866,83.891833,12,47.6255,Basalt,Dug Well,2.8
+Srinagar,34.083627,74.810746,1587,30.075000000000003,Basalt,Dug Well,2.5149999999999997
+Sultanpur,26.262349,82.073784,96,12.5245,Basalt,Dug Well,2.23
+Sundargarh,22.128217,84.048498,236,67.99,Qtz./Schist,Dug Well,3.88
+Supaul,26.246247,86.644513,58,36.09987059,Basalt,Dug Well,2.4
+Surat,21.205128,72.847119,15,72.435,Younger Alluvium,Dug Well,5.37
+Surendranagar,22.732978,71.614645,75,122.311,Younger Alluvium,Dug Well,5.6
+Surguja,23.118939,83.207362,607,40.2326,Unconfined,Dug Well,4.0
+Tamenglong,24.996325,93.502375,1030,47.85415,Unconfined,Dug Well,3.325
+Tawang,27.587899,91.885444,2605,55.4757,Unconfined,Dug Well,2.65
+Tehri Garhwal,30.376102,78.498598,982,63.09725,Unconfined,Dug Well,1.9749999999999996
+Thane,19.205931,72.971198,18,70.7188,Unconfined,Dug Well,1.3
+Thanjavur,10.785111,79.138403,55,216.1486,Semi Confined,Dug Well,4.81
+The Dangs,20.756817,73.689483,436,97.971,Younger Alluvium,Dug Well,5.15
+The Nilgiris,11.415521,76.705867,2300,89.5099,Semi Confined,Dug Well,8.82
+Theni,9.999588,77.464364,301,230.1227,Semi Confined,Dug Well,4.9
+Thiruvallur,13.153773,79.915219,39,225.46466666666666,Semi Confined,Dug Well,3.71
+Thiruvananthapuram,8.490191,76.917805,10,220.80663333333334,Semi Confined,Dug Well,2.52
+Thiruvarur,10.780886,79.626455,13,216.1486,Semi Confined,Dug Well,1.33
+Thoothukkudi,8.810166,78.148882,7,178.68523333333331,Semi Confined,Dug Well,3.5833333333333335
+Thoubal,24.637889,94.006052,778,141.22186666666664,Semi Confined,Dug Well,5.836666666666667
+Thrissur,10.522671,76.21865,13,103.7585,Semi Confined,Dug Well,8.09
+Tikamgarh,24.743252,78.831962,355,26.19,Phreatic/Granite,Dug Well,1.08
+Tinsukia,27.49208,95.370027,124,20.808,Basalt,Dug Well,4.49
+Tirap,26.991189,95.50663,841,92.5219,Semi confined,Dug Well,4.35
+Tiruchirapalli,10.82225,78.681043,74,161.33030000000002,Semi confined,Dug Well,7.51
+Tirunelveli,8.730059,77.692464,43,230.1387,Semi Confined,Dug Well,10.67
+Tiruvannamalai,12.233386,79.07432,209,216.1486,Semi Confined,Dug Well,1.6
+Tonk,26.171361,75.788097,280,58.0948,Semi confined,Dug Well,8.9
+Tuensang,26.229854,94.814512,1508,174.10825,Semi confined,Dug Well,6.36
+Tumkur,13.353655,77.096527,812,290.1217,Semi Confined,Dug Well,3.82
+Udaipur,24.585424,73.686924,590,143.8206,Semi Confined,Tube Well,7.9
+Udham Singh Nagar,28.966203,79.396914,211,12.5245,Basalt,Tube Well,3.99
+Udhampur,32.91258,75.108491,680,65.06,Unconfined to Semi Confined,Dug Well,1.42
+Udupi,13.359567,74.759237,26,231.4902,Semi Confined,Dug Well,5.8
+Ujjain,23.185696,75.779601,492,55.8733,Basalt,Bore Well,5.66
+Ukhrul,25.091234,94.363891,1731,36.07818029,Basalt,Bore Well,5.415
+Umaria,23.525654,80.837774,456,16.28306058,Limestone,Dug Well,5.17
+Una,31.46426,76.268458,375,74.73,Unconfined and Confined,Dug Well,29.58
+Unnao,26.545632,80.489814,128,12.5245,Basalt,Dug Well,1.22
+Upper Siang,28.613345,95.066152,898,12.5245,Basalt,Dug Well,1.8233333333333333
+Upper Subansiri,28.029687,94.216858,720,12.5245,Basalt,Dug Well,2.4266666666666667
+Uttar Dinajpur,25.609131,88.125952,35,12.5245,Basalt,Dug Well,3.03
+Uttara Kannada,14.804209,74.131214,47,236.3377,Semi Confined,Dug Well,5.8
+Uttarkashi,30.715986,78.430542,1466,161.8259,Semi Confined,Dug Well,5.085
+Vadodara,22.287726,73.206027,36,87.3141,Younger Alluvium,Dug Well,4.37
+Vaishali,25.676599,85.219298,53,37.08687059,Basalt,Dug Well,4.57
+Valsad,20.631227,72.933378,8,75.5841,Younger Alluvium,Dug Well,2.07
+Varanasi,25.325043,82.975165,80,12.5245,Basalt,Dug Well,10.03
+Vellore,12.909641,79.139241,255,216.1486,Semi Confined,Bore Well,7.67
+Vidisha,23.531456,77.812138,424,23.69323333,Basalt,Dug Well,5.01
+Viluppuram,11.936979,79.487333,47,162.127116665,Basalt,Dug Well,5.015
+Virudhunagar,9.594003,77.952743,101,300.561,Semi Confined,Bore Well,5.02
+Visakhapatnam,17.724253,83.305865,29,13.6686,Basalt,Dug Well,1.79
+Vizianagaram,18.124612,83.406912,66,48.3345,Basalt,Dug Well,3.6
+Warangal,18.030289,79.57543,255,14.9555,Basalt,Bore Well,3.58
+Wardha,20.735221,78.604456,281,44.141,Unconfined,Dug Well,5.17
+Washim,20.108935,77.142117,550,49.799,Alluvium,Dug Well,6.1
+Wayanad,11.606117,76.088347,812,92.2926,Semi Confined,Dug Well,7.82
+West Sikkim,27.290085,88.244703,1442,92.4768,Semi Confined,Dug Well,6.715
+West Garo Hills,25.505214,90.280827,957,92.661,Qtz./Schist,Dug Well,5.61
+West Godavari,16.719836,81.100761,18,92.2025,Semi confined,Dug Well,1.17
+West Kameng,27.264281,92.425854,2468,81.62455,Semi confined,Dug Well,1.06
+West Khasi Hills,25.518083,91.269445,1361,71.0466,Qtz./Schist,Dug Well,0.95
+West Nimar,21.825248,75.61635,255,51.53923333333333,Qtz./Schist,Dug Well,1.8633333333333333
+West Siang,28.168599,94.80047,266,32.031866666666666,Qtz./Schist,Dug Well,2.776666666666667
+West Tripura,23.827795,91.274175,17,12.5245,Basalt,Bore Well,3.69
+Wokha,26.0917,94.258877,1383,40.527249999999995,Basalt,Bore Well,3.4699999999999998
+Yamunanagar,30.30369,77.307789,304,68.53,Semi-Confined To Confined,Dug Well,3.25
+Yanam,16.734771,82.213971,7,76.2014,Semi-Confined To Confined,Dug Well,5.225
+Yavatmal,20.3876,78.131472,452,83.8728,OLDER ALLUVIUM,Dug Well,7.2
+Zunheboto,26.009562,94.521241,1639,74.577414118,OLDER ALLUVIUM,Dug Well,6.33
+Rangareddi,17.3891,77.8367,602,65.282028236,OLDER ALLUVIUM,Dug Well,5.460000000000001
+Vishakhapatnam,17.724,82.7347,113,55.986642354,OLDER ALLUVIUM,Dug Well,4.590000000000001
+Golapara,26.0876,90.5636,49,46.691256472,OLDER ALLUVIUM,Dug Well,3.7200000000000006
+Bastar,19.1071,81.9535,544,37.39587059,Basalt,Dug Well,2.85
+Badgam,33.9349,74.64,2098,37.32976059,Basalt,Dug Well,2.755
+Doda,33.0469,75.6208,1472,37.26365059,Basalt,Dug Well,2.66
+Kargil,34.262,76.2711,4815,37.19754059,Basalt,Dug Well,2.565
+Kupwara,34.4319,74.124,1984,37.13143059,Basalt,Dug Well,2.47
+Pulwama,33.9819,75.0144,2030,37.06532059,Basalt,Dug Well,2.375
+Rajauri,33.3717,74.3153,950,36.99921059,Basalt,Dug Well,2.2800000000000002
+West Singbhum,22.3651,85.4376,358,36.933100589999995,Basalt,Dug Well,2.185
+Bangalore Rural,13.2847,77.6078,920,36.86699059,Basalt,Dug Well,2.09
+Chikmangalur,13.4045,75.6208,1051,36.80088059,Basalt,Dug Well,1.995
+Davanagere,14.3318,75.9928,604,36.73477059,Basalt,Dug Well,1.9
+Imphal East,24.7807,93.9674,779,42.985816471999996,Basalt,Dug Well,2.014
+Imphal West,24.7828,93.8859,780,49.236862353999996,Basalt,Dug Well,2.128
+Aizwal,23.8789,92.8976,627,55.487908235999996,Basalt,Dug Well,2.242
+Lawngtlai,22.3114,92.6984,332,61.738954117999995,Basalt,Dug Well,2.3560000000000003
+Sonapur,20.9338,83.8049,122,67.99,Qtz./Schist,Dug Well,2.47
+North Sikkim,27.8236,88.5565,3679,134.08333333333331,Qtz./Schist,Dug Well,2.646666666666667
+South Sikkim,27.2858,88.3946,1360,200.17666666666662,Qtz./Schist,Dug Well,2.8233333333333333
+Ariyalur,11.2399,79.2902,80,266.27,Semi Confined,Dug Well,3.0
+Bulandshahar,28.4215,78.0195,202,12.5245,Basalt,Dug Well,12.65
+Siddharth Nagar,27.2716,82.821,89,12.5245,Basalt,Dug Well,10.494
+Burdwan,23.4595,87.6186,67,12.5245,Basalt,Dug Well,8.338000000000001
+Cooch Behar,26.3234,89.3227,48,12.5245,Basalt,Dug Well,6.182
+South Dinajpur,25.3715,88.5565,29,12.5245,Basalt,Dug Well,4.026
+Darjeeling,26.9287,88.3628,1037,12.5245,Basalt,Dug Well,1.87
+Howrah,22.5604,88.051,7,12.5245,Basalt,Dug Well,1.5
+Hooghly,22.8963,88.2461,9,12.5245,Basalt,Dug Well,3.445
+Malda,25.1786,88.2461,35,12.5245,Basalt,Dug Well,5.39
+Midnapore,22.408,87.3811,27,12.5245,Basalt,Dug Well,4.324999999999999
+Purulia,23.3322,86.3616,247,12.5245,Basalt,Dug Well,3.26
+North Dinajpur,25.981,88.051,47,12.5245,Basalt,Dug Well,3.26
+New Delhi,28.6139,77.209,219,12.5245,Basalt,Dug Well,3.26
+Andaman,10.7449,92.5,51,12.5245,Basalt,Dug Well,3.26
+Nicobar,7.1205,93.7842,157,12.5245,Basalt,Dug Well,3.26
+Mahe,11.7003,75.5425,14,12.5245,Basalt,Dug Well,3.26
+Sikkim,27.3516,88.3239,1299,12.5245,Basalt,Dug Well,3.26
+Lakshadweep,10.5667,72.6417,7,12.5245,Basalt,Dug Well,3.26
+Goa,15.2993,74.124,97,12.5245,Basalt,Dug Well,3.26

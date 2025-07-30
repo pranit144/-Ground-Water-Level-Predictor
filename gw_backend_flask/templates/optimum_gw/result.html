@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimal Coordinates Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1, h2, h4 {
+            color: #003366;
+        }
+        .skyblue-bold {
+            color: #003366;
+            font-weight: bold;
+        }
+        .green-bold {
+            color: #009933;
+            font-weight: bold;
+        }
+        .yellow-heading {
+            color: #FFFF00; /* Yellow color */
+        }
+        .box {
+            background-color: #e6f2ff;
+            border: 2px solid #b3d9ff;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px auto;
+            width: 80%;
+            text-align: left;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .box h4 {
+            color: #009933;
+            font-weight: bold;
+        }
+        .box p {
+            font-weight: bold;
+            color: black;
+            margin: 5px 0;
+        }
+        .box .latitude, .box .longitude {
+            color: brown;
+        }
+        .gauge-img {
+            width: 400px; /* Increased size of the gauge image */
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px auto;
+            width: 80%;
+        }
+        .map-container {
+            width: 45%; /* Slightly decreased width */
+            height: 250px; /* Slightly decreased height */
+            background-color: #e6f2ff;
+            border: 2px solid #b3d9ff;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-right: 20px; /* Increased gap on the right side */
+            margin-bottom: 40px; /* Increased bottom spacing */
+        }
+        .guidelines-container {
+            width: 45%; /* Slightly decreased width */
+            background-color: black;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            height: 250px; /* Slightly decreased height */
+            text-align: left;
+            margin-left: 20px; /* Increased gap on the left side */
+            margin-bottom: 40px; /* Increased bottom spacing */
+        }
+        .guidelines-container h2 {
+            color: #FFFF00; /* Yellow color for heading */
+            font-weight: bold;
+        }
+        .guidelines-container ul {
+            margin: 10px 0; /* Adjust spacing between points */
+            padding: 0;
+            list-style-type: disc;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="skyblue-bold">Optimal Coordinates Result</h1>
+
+    <!-- Your Input Location Section -->
+    <div class="box">
+        <h4>Your Input Location:</h4>
+        <p>{{ user_address }}</p>
+    </div>
+
+    <!-- Optimal Coordinates Section -->
+    <div class="box">
+        <h4>Optimal Coordinates:</h4>
+        <p class="latitude">Latitude: <span style="color: black;">{{ optimal_lat }}</span></p>
+        <p class="longitude">Longitude: <span style="color: black;">{{ optimal_lon }}</span></p>
+        <p>Address: <span style="color: black;">{{ optimal_address }}</span></p>
+    </div>
+
+    <!-- Gauge Chart Section -->
+    <h2 class="green-bold">Optimal Co-ordinate Groundwater Level (Mbgl)</h2>
+    <img src="data:image/png;base64,{{ gauge_img }}" class="gauge-img" alt="Gauge">
+
+    <!-- Map and Guidelines Section -->
+    <h2 class="green-bold">Optimal Co-ordinate Geospatial Analysis</h2>
+    <div class="container">
+        <div class="map-container">
+            {{ map_html|safe }}
+        </div>
+
+        <div class="guidelines-container">
+            <h2>Map Guidelines</h2>
+            <ul>
+                <li>Green point shows the user-inputted location</li>
+                <li>Blue point shows the optimal coordinate location</li>
+                <li>The heatmap shows groundwater levels in nearby areas</li>
+                <li>Red heat indicates greater depth of groundwater</li>
+                <li>Green heat indicates lesser depth of groundwater</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

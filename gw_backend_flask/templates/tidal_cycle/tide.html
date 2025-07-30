@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidal Cycles Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            margin-top: 40px;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .heading {
+            color: #00796b;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+        .form-label {
+            font-weight: 500;
+        }
+        .form-select, .btn {
+            height: 50px;
+            border-radius: 8px;
+        }
+        .btn {
+            background-color: #00796b;
+            border: none;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 12px 24px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #004d40;
+        }
+        .metric-label {
+            font-size: 1.2em;
+            color: #004d40;
+        }
+        .metric-value {
+            font-size: 2em;
+            font-weight: 600;
+            color: #00796b;
+        }
+        .metric-container {
+            margin-bottom: 20px;
+        }
+        .line-plot-container, .plot-container {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        #line-plots-container > div, #map-container {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Tidal Cycles Analysis</h1>
+
+        <form id="tidalForm">
+            <div class="mb-3">
+                <label for="location" class="form-label">Select Coastal Location</label>
+                <select class="form-select" id="location" name="location">
+                    {% for location in locations %}
+                    <option value="{{ location }}">{{ location }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="selected_time" class="form-label">Select Time of the Day</label>
+                <select class="form-select" id="selected_time" name="selected_time">
+                    <option value="3 AM">3 AM</option>
+                    <option value="9 AM">9 AM</option>
+                    <option value="3 PM">3 PM</option>
+                    <option value="9 PM">9 PM</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <div id="metrics-container" class="row text-center my-4">
+            <div class="col-3 metric-container">
+                <span class="metric-label">Avg High Tide Time</span><br>
+                <span id="avg_high_tide_time" class="metric-value">N/A</span>
+            </div>
+            <div class="col-3 metric-container">
+                <span class="metric-label">Avg Low Tide Time</span><br>
+                <span id="avg_low_tide_time" class="metric-value">N/A</span>
+            </div>
+            <div class="col-3 metric-container">
+                <span class="metric-label">Avg Sea Water Level</span><br>
+                <span id="avg_sea_water_level" class="metric-value">N/A</span>
+            </div>
+            <div class="col-3 metric-container">
+                <span class="metric-label">Groundwater Deviation</span><br>
+                <span id="avg_groundwater_deviation" class="metric-value">N/A</span>
+            </div>
+        </div>
+
+        <!-- Line plots for groundwater and sea water levels -->
+        <div id="line-plots-container" class="line-plot-container">
+            <div id="groundwater-plot"></div>
+            <div id="seawater-plot"></div>
+        </div>
+
+        <!-- Tidal map -->
+        <div id="map-container" class="plot-container"></div>
+    </div>
+
+    <script>
+        $('#tidalForm').on('submit', function(e) {
+            e.preventDefault();
+            var location = $('#location').val();
+            var selected_time = $('#selected_time').val();
+
+            $.post('/api/tidal_cycle/analysis/tidal_data', { location: location, selected_time: selected_time }, function(data) {
+                $('#avg_high_tide_time').text(data.avg_high_tide_time);
+                $('#avg_low_tide_time').text(data.avg_low_tide_time);
+                $('#avg_sea_water_level').text(data.avg_sea_water_level + ' m');
+                $('#avg_groundwater_deviation').text(data.avg_groundwater_deviation + ' mbgl');
+            });
+
+            $.post('/api/tidal_cycle/analysis/line_plots', { location: location, selected_time: selected_time }, function(plots) {
+                $('#groundwater-plot').html(plots.groundwater_plot);
+                $('#seawater-plot').html(plots.seawater_plot);
+            });
+
+            $.post('/api/tidal_cycle/analysis/map', { selected_time: selected_time }, function(mapHtml) {
+                $('#map-container').html(mapHtml);
+            });
+        });
+    </script>
+</body>
+</html>

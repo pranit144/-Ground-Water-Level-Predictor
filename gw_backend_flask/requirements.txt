@@ -1,0 +1,10 @@
+flask
+folium
+selenium
+numpy
+pandas
+geopy
+matpotlib
+google.generativeai
+joblib
+scikit-learn==1.3.2

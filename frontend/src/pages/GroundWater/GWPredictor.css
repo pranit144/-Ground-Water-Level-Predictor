@@ -1,0 +1,102 @@
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+.container {
+    margin: 10px auto;
+    max-width: 1200px; /* Adjust as needed */
+}
+.main-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: skyblue;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.box-header {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+.gauge-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.gauge-container .gauge {
+    width: 45%;
+}
+.gauge-heading {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.line-plot {
+    margin-bottom: 30px;
+}
+.mini-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.mini-boxes .box {
+    width: 30%;
+    padding: 10px;
+}
+.nutrient-table {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.nutrient-table th, .nutrient-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.nutrient-table th {
+    background-color: skyblue;
+    color: black;
+    font-weight: bold;
+}
+.nutrient-table th.title {
+    text-align: center;
+    background-color: transparent;
+    color: skyblue;
+    font-size: 24px;
+}
+.ai-suggestions {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+}
+.ai-suggestions h2 {
+    text-align: center;
+    font-weight: bold;
+    color: skyblue;
+    font-size: 24px;
+}
+.ai-suggestions p {
+    text-align: center;
+    font-weight: bold;
+}
+.ai-suggestions .section {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.ai-suggestions .section h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
